@@ -48,6 +48,7 @@
 		65BDB61726893DE6006A3AA9 /* WackamoleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WackamoleTests.swift; sourceTree = "<group>"; };
 		65BDB61D26893DE6006A3AA9 /* WackamoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WackamoleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BDB62126893DE6006A3AA9 /* WackamoleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WackamoleUITests.swift; sourceTree = "<group>"; };
+		65BDB668268D2D2D006A3AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		65BDB5FF26893DD7006A3AA9 /* Wackamole */ = {
 			isa = PBXGroup;
 			children = (
+				65BDB668268D2D2D006A3AA9 /* Info.plist */,
 				65BDB60026893DD8006A3AA9 /* AppDelegate.swift */,
 				65BDB60226893DD8006A3AA9 /* GameScene.sks */,
 				65BDB60426893DD8006A3AA9 /* Actions.sks */,
@@ -429,12 +431,21 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B593VA2G7H;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wackamole/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Wackamole;
+				INFOPLIST_KEY_CFBundleName = Wackamole;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,12 +466,21 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B593VA2G7H;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wackamole/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Wackamole;
+				INFOPLIST_KEY_CFBundleName = Wackamole;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
