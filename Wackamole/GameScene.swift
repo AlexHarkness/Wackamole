@@ -19,7 +19,7 @@ class GameScene: SKScene {
         scoreLabel.fontSize *= 1.25
         playButton.fontSize *= 1.25
         addChild(scoreLabel)
-        addChild(playButton)
+        addChild(playButton) 
         playButton.text = "TOUCH TO PLAY"
     }
     
